@@ -1,36 +1,51 @@
-/* 
-	Hoja de estilos para ejercicio/proyecto: XXXXXX
-	
-	Secciones: 
-	$1: Estilos base
-	$2: Estilos tipográficos
-	$3: XXXX
-
-*/
-
-/* $1: Estilos base */
-
 * { box-sizing: border-box; }
 
-
-/* $2: Estilos tipográficos */
-
-body {
-	font-family: sans-serif;
-	line-height: 1.5;
+body{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: white;
 }
 
-h1 {
-	font-size: 30px;
-	margin-bottom: 15px;
+h1{
+    font-weight: 800;
+    font-size: 30px;
+    margin: 30px;
+    line-height: 30px;
 }
 
-p {
-	margin-bottom: 15px;
+.barramenu{
+    width: 100%;
 }
 
-/* $3: XXXX */
-
-.caja{
-    background-color: skyblue;
+.menu{
+    padding: 25px 200px 25px 30px;
+    display:flex;
+    justify-content: flex-end; 
 }
+
+.barramenu img{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.menu a{
+    margin-left: 40px;
+    font-weight: 200;
+}
+
+.cabecera{
+    width:100%;
+    min-height: 400px;
+    background-image: url(../img/Imagenesenlahome/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.siprefillrehuse{
+    color:white;
+}
+
