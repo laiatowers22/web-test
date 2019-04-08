@@ -4,26 +4,33 @@ body{
     width: 100%;
     font-family: sans-serif;
     font-size: 18px;
+    font-weight: 200;
     line-height: 18px;
     background-color: white;
 }
 
+/*MENU*/
+
 h1{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 33px;
     margin: 30px;
+    margin-bottom: 15px;
     line-height: 30px;
 }
 
 .barramenu{
     width: 100%;
+    position: fixed;
+    height: 65px;
+    background-color: white;
 }
 
 .menu{
     padding: 25px 200px 25px 30px;
     display:flex;
     justify-content: flex-end; 
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .barramenu img{
@@ -37,23 +44,57 @@ h1{
     font-weight: 200;
 }
 
+.icons{
+    display: flex;
+    flex-flow: row;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.iconos{
+    width: 25px;
+}
+
+
+/*CEBECERA*/
+
 .cabecera{
     width:100%;
-    min-height: 670px;
+    min-height: 730px;
     background-image: url(../img/Imagenesenlahome/marron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;   
+    background-position: center;
 }
 
 .contenidocabecera{
-    padding-top: 300px;
+    padding-top: 315px;
     text-align: center;
     width: 100%;
     color: white;
 }
 
+.contenidocabecera hr{
+    background-color: lightgrey;
+   
+}
+
+hr{
+    width: 40px;
+    height: 4px;
+    border: none;
+    background-color: white;
+}
+
 .contenidocabecera p{
     display: inline-block;
     max-width: 490px;
+}
+
+/*SPLASH FOTOS INSTAGRAM*/
+
+.ourmemocommunity{
+    text-align: center;
+    font-weight: 200;
+ 
 }
